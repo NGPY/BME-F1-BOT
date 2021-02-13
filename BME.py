@@ -222,6 +222,6 @@ async def on_message(message): # when a message is received
 		await message.channel.send(constructorstands2)
 	if message.content.startswith('.racetime'):
 		await message.channel.send('DIV 1:\nEvery Sunday 4pm **UTC**\nExceptions: NONE\nDIV 2:\nEvery Friday 7pm **UTC**\nExceptions: NONE')
-	if message.conetent.startswith('.picofday'):
+	if message.content.startswith('.picofday'):
 		await message.channel.send('https://cdn.discordapp.com/attachments/809005623899324419/809939640382521364/unknown.png')
 client.run(token)      # runs the client with my bot key
