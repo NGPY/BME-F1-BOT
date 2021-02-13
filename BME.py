@@ -199,7 +199,7 @@ async def on_message(message): # when a message is received
 		reply = ball8[num]
 		await message.channel.send(reply)
 	if message.content.startswith('.help'):   #if the message starts with .help messages that channel with the commands
-		await message.channel.send('.8ball : 8ball response to anything\n.driverstands : shows div 1 driver standings\n.driverstands2 : shows div 2 driver standings\n.constructorstands : shows div 1 constructor standings\n.constructorstands2 : shows div 2 constructor standings\n.coin : coinflip\n.racetime : shows at what times races start')
+		await message.channel.send('.8ball : 8ball response to anything\n.driverstands1 : shows div 1 driver standings\n.driverstands2 : shows div 2 driver standings\n.constructorstands1 : shows div 1 constructor standings\n.constructorstands2 : shows div 2 constructor standings\n.coin : coinflip\n.racetime : shows at what times races start')
 	if message.content.startswith('.driverstands1'): # just sends a message with the sorted driver standings in pretty print
 		await message.channel.send(driverstands)
 	if message.content.startswith('.constructorstands1'):  # just sends the constructor standings in pretty print
